@@ -7,6 +7,12 @@ body {
     background-position: center;
     background-size: cover;
 }
+.header-pricing {
+    background-image: url(images/pic_2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .btn-primary {
     border-radius: 2rem;
     background-color: #C271FF;
@@ -32,6 +38,12 @@ p.card-text {
 }
 .bg-dark {
     background-color: #071629!important;
+}
+tr.border-bottom {
+    border-bottom: 1px solid #dee2e63d!important;
+}
+.mw-450 {
+    max-width: 435px;
 }
 /***** holberton school icons font *****/
 @font-face {
@@ -70,4 +82,8 @@ p.card-text {
 }
 .holberton_school-icon-ic_twitter:before {
     content: "\e90f";
+}
+.holberton_school-icon-check:before {
+    content: "\e905";
+    color: #82D24F;
 }
