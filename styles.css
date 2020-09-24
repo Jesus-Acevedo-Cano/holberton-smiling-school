@@ -1,17 +1,25 @@
 body {
     font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-.header {
-    background-image: url(images/pic_1.jpg);
+.coiny-font {
+    font-family: 'coiny';
+}
+li a:hover, li a:focus, li a:active, .text-purple {
+    color: #C271FF!important;
+}
+.header, .header-pricing, .header-courses  {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+.header {
+    background-image: url(images/pic_1.jpg);
+}
 .header-pricing {
     background-image: url(images/pic_2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+}
+.header-courses {
+    background-image: url(images/pic_3.jpg);
 }
 .btn-primary {
     border-radius: 2rem;
@@ -44,6 +52,18 @@ tr.border-bottom {
 }
 .mw-450 {
     max-width: 435px;
+}
+.mw-565 {
+    max-width: 565px;
+}
+.bg-light {
+	background-color: #f8f9fa4f !important;
+}
+.custom-select {
+	background: url(images/down-arrow.png) no-repeat right .75rem center/0.7rem;
+}
+.form-control::placeholder {
+	color: #ffffff7a;
 }
 /***** holberton school icons font *****/
 @font-face {
@@ -86,4 +106,7 @@ tr.border-bottom {
 .holberton_school-icon-check:before {
     content: "\e905";
     color: #82D24F;
+}
+.holberton_school-icon-search_1:before {
+	content: "\e912";
 }
